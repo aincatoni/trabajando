@@ -164,10 +164,20 @@ html {
   border-left: 30px solid var(--blue-pcf);
 }
 
+.pcf__bg--dog {
+  background-image: url(img/fondo/fondo_perro_mobile.jpg) ;
+  min-height: 100vh;
+}
+
 
 @media (min-width: 768px) {
   .pcf__title--big {
     font-size: 2rem;
+  }
+
+  .pcf__bg--dog {
+    background-image: url(img/fondo/fondo_grande_perro.jpg) ;
+    min-height: 100vh;
   }
   
 }
