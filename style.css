@@ -140,11 +140,11 @@ html {
 }
 
 .bs-5 .pcf__title--big {
-  font-size: 2.5em!important;
+  font-size: 2.3em!important;
 }
 
 .pcf__title--medium {
-  font-size: 1.6rem!important;
+  font-size: 1.9rem!important;
 }
 
 .pcf__tagline {
@@ -191,6 +191,17 @@ max-width: 350px;
     max-width: 480px;
     padding: 15px 10px;
   }
+
+  .bs-5 .pcf__title--big {
+    font-size: 3em!important;
+  }
   
+  .pcf__title--medium {
+    font-size: 2rem!important;
+  }
+  
+  .pcf__tagline {
+    max-width: 400px;
+    }
   
 }
