@@ -1,0 +1,173 @@
+
+
+@font-face {
+  font-family: "Ubuntu-Bold";
+  src: url("fonts/Ubuntu-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Ubuntu-Bold-Italic";
+  src: url("fonts/Ubuntu-BoldItalic.ttf");
+}
+
+@font-face {
+  font-family: "Ubuntu-Italic";
+  src: url("fonts/Ubuntu-Italic.ttf");
+}
+
+@font-face {
+  font-family: "Ubuntu-Light";
+  src: url("fonts/Ubuntu-Light.ttf");
+}
+
+@font-face {
+  font-family: "Ubuntu-Light-Italic";
+  src: url("fonts/Ubuntu-LightItalic.ttf");
+}
+
+@font-face {
+  font-family: "Ubuntu-Medium";
+  src: url("fonts/Ubuntu-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Ubuntu-Medium-Italic";
+  src: url("/fonts/Ubuntu-MediumItalic.ttf");
+}
+
+@font-face {
+  font-family: "Ubuntu-Regular";
+  src: url("fonts/Ubuntu-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Signika";
+  src: url("fonts/Signika-VariableFont_wght.ttf");
+}
+
+/********************************/
+/*****  Variables y  ***********/
+
+:root {
+  --green-pcf: #43d87e;
+  --yellow-pcf: #e2ff3c;
+  --blue-pcf: #2644f9;
+  --blue-dark-pcf: #0e0325;
+  --gray-pcf: #666666;
+  --gray-light-pcf: #f1f3f4;
+  --white: #ffffff;
+  --black: #000000;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%
+}
+
+
+.wrapper {
+  margin: 0 auto;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+
+
+.mx-100 {
+  max-width: 100%;
+ }
+
+ .w-10 {
+  width: 10%;
+ }
+ .w-20 {
+  width: 20%;
+ }
+ .w-30 {
+  width: 30%;
+ }
+ .w-40 {
+  width: 40%;
+ }
+ .w-50 {
+  width: 50%;
+ }
+ .w-60 {
+  width: 60%;
+ }
+ .w-70 {
+  width: 70%;
+ }
+ .w-80 {
+  width: 80%;
+ }
+ .w-90 {
+  width: 90%;
+ }
+ .w-100 {
+  width: 100%;
+ }
+
+.h-auto {
+  height: auto;
+ }
+
+.pcf__text--regular {
+  font-family: Ubuntu-Regular;
+}
+
+.pcf__text--medium {
+  font-family: Ubuntu-Medium;
+}
+
+.pcf__text--bold {
+  font-family: Ubuntu-Bold;
+}
+
+
+.pcf__bg--blue {
+  background-color: var(--blue-pcf);
+}
+.pcf__bg--dark-blue {
+  background-color: var(--blue-dark-pcf);
+}
+
+
+
+.pcf__text--white {
+  color: #FFFFFF;
+}
+
+.pcf__title--big {
+  font-size: 1rem;
+}
+
+
+
+.pcf__title {
+  min-width: 100px;
+  max-width: 480px;
+  padding: 15px 10px;
+}
+
+.pcf__arrow--blue {
+  position: absolute;
+  bottom: -24px;
+  left: 20%;
+  width: 0;
+  height: 0;
+  border-top: 0px solid transparent;
+  border-bottom: 25px solid transparent;
+  border-left: 30px solid var(--blue-pcf);
+}
+
+
+@media (min-width: 768px) {
+  .pcf__title--big {
+    font-size: 2rem;
+  }
+  
+}
