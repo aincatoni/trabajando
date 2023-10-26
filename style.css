@@ -135,28 +135,33 @@ html {
   background-color: var(--blue-dark-pcf);
 }
 
-
-
 .pcf__text--white {
   color: #FFFFFF;
 }
 
-.pcf__title--big {
-  font-size: 1rem;
+.bs-5 .pcf__title--big {
+  font-size: 2.5em!important;
 }
 
+.pcf__title--medium {
+  font-size: 1.6rem!important;
+}
 
+.pcf__tagline {
+margin: 0 10px 0 0;
+max-width: 350px;
+}
 
 .pcf__title {
-  min-width: 100px;
-  max-width: 480px;
-  padding: 15px 10px;
+ min-height: 80px;
+ padding: 20px;
+
 }
 
 .pcf__arrow--blue {
   position: absolute;
   bottom: -24px;
-  left: 20%;
+  left: 85%;
   width: 0;
   height: 0;
   border-top: 0px solid transparent;
@@ -167,17 +172,25 @@ html {
 .pcf__bg--dog {
   background-image: url(img/fondo/fondo_perro_mobile.jpg) ;
   min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 
 @media (min-width: 768px) {
-  .pcf__title--big {
-    font-size: 2rem;
-  }
 
   .pcf__bg--dog {
     background-image: url(img/fondo/fondo_grande_perro.jpg) ;
     min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
   }
+
+  .pcf__title {
+    min-width: 100px;
+    max-width: 480px;
+    padding: 15px 10px;
+  }
+  
   
 }
