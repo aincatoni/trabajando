@@ -170,17 +170,18 @@ max-width: 350px;
 }
 
 .pcf__bg--dog {
-  background-image: url(img/fondo/fondo_perro_mobile.jpg) ;
+  background-image: url(img/fondo/fondo_perro_veraniego_mobile.jpg) ;
   min-height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
 @media (min-width: 768px) {
 
   .pcf__bg--dog {
-    background-image: url(img/fondo/fondo_grande_perro.jpg) ;
+    background-image: url(img/fondo/fondo_perro_veraniego.jpg) ;
     min-height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
